@@ -169,14 +169,32 @@ footer p {
 
 /* ESTILO PAGINA SERVIÇO */
 
-section #geologo{
+#corposervico {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: 960px;
+    height: 960px;
+    background-color: #EEE8AA;
+    margin-top: 10px;
+    border-radius: 15px;
+    box-shadow: 1px 1px 10px rgba(87, 68, 88, 0.6);
+}
+
+section #geologo {
     width: 250px;
     height: 200px;
     border-radius: 10px;
     margin-top: 23px;
 }
 
-section video{
+section video {
+    width: 350px;
+    height: 250px;
+    border-radius: 8px;
+}
+
+#imgservico {
     width: 350px;
     height: 250px;
     border-radius: 8px;
@@ -184,7 +202,7 @@ section video{
 
 /* ESTILO PAGINA SOBRE */
 
-#sitesobre{
+#sitesobre {
     width: 350px;
     height: 565px;
     background-color: #FFD700;
@@ -192,13 +210,13 @@ section video{
     box-shadow: 1px 1px 10px rgb(40, 255, 244, 0.6);
 }
 
-section #imgsobre{
+section #imgsobre {
     width: 350px;
     height: 565px;
     border-radius: 10px;
 }
 
-#sitesobre2{
+#sitesobre2 {
     width: 560px;
     height: 565px;
     background-color: #F0E68C;
@@ -209,21 +227,21 @@ section #imgsobre{
 /* ESTILO PAGINA CONTATO */
 
 #sitecontato {
-    width: 350px;
+    width: 400px;
     height: 565px;
-    background-color: #FFD700;
+    background-color: #9bcbe2;
     border-radius: 15px;
     box-shadow: 1px 1px 10px rgb(40, 255, 244, 0.6);
 }
 
 section #imgcontato {
-    width: 350px;
+    width: 400px;
     height: 565px;
     border-radius: 10px;
 }
 
 #sitecontato2 {
-    width: 560px;
+    width: 520px;
     height: 565px;
     background-color: #F0E68C;
     border-radius: 15px;
